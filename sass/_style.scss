@@ -1,0 +1,64 @@
+*{
+	padding:0;
+	margin:0;
+}
+
+.menu{
+	display:flex;
+	text-align:center;
+	padding:20px;
+	width:100%;
+	background-color:$menu;
+	margin-bottom:500px;
+}
+
+.menu__item{
+	display:inline-block;
+	font-size:10px;
+	font-weight:700;
+	color:white;
+}
+
+.menu__item__link{
+	color:white;
+	text-decoration:none;
+}
+
+.datos{
+	width:100%;
+	background-color:$fondo;
+	position:relative;
+	bottom:00px;
+//Element
+&__nombre{
+	color:$titulo;
+	text-align:center;
+	padding-top:2%;
+}	
+&__web{
+	color:$texto;
+	text-align:center;
+	padding-left:5%;
+
+}
+&__descripcion{
+	color:$texto;
+	text-align:center;
+	padding-left:43%;
+}
+&__boton{
+	color:white;
+	background:$boton;
+	text-align:center;
+	margin-left:43%;
+	border-radius:20px;
+	border:none;
+	padding:10px 40px;
+
+
+}
+
+
+
+
+}

@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css?family=PT+Serif:400,700");
+* {
+  padding: 0;
+  margin: 0; }
+
+.menu {
+  display: flex;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  background-color: #F04949;
+  margin-bottom: 500px; }
+
+.menu__item {
+  display: inline-block;
+  font-size: 10px;
+  font-weight: 700;
+  color: white; }
+
+.menu__item__link {
+  color: white;
+  text-decoration: none; }
+
+.datos {
+  width: 100%;
+  background-color: #203748;
+  position: relative;
+  bottom: 00px; }
+  .datos__nombre {
+    color: #39D084;
+    text-align: center;
+    padding-top: 2%; }
+  .datos__web {
+    color: #EFEFEF;
+    text-align: center;
+    padding-left: 5%; }
+  .datos__descripcion {
+    color: #EFEFEF;
+    text-align: center;
+    padding-left: 43%; }
+  .datos__boton {
+    color: white;
+    background: #39D084;
+    text-align: center;
+    margin-left: 43%;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 40px; }
+
+/*# sourceMappingURL=main.css.map */
