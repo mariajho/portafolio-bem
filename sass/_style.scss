@@ -6,64 +6,147 @@
 .menu{
 	display:flex;
 	text-align:center;
-	padding: 30px;
-	width:100%;
+	padding: 10px;
 	background-color:$menu;
 }
 
 .menu__item{
 	display:inline-block;
-	font-size:10px;
+	font-size:8px;
 	font-weight:700;
 	color:white;
 	padding-left:80px;
-	margin-top:5px;
+	margin-top:7px;
 	position:relative;
-	left:350px;
+	left:250px;
+}
+
+.menu__imagen{
+	border-radius:20px;
+	border: 2px solid $boton;
+	width:40px;
+	height:40px;
+	margin-top: -9px;
+	text-align:center;
 }
 
 .menu__item__link{
 	color:white;
 	text-decoration:none;
 	cursor:pointer;
-	font-size:17px;
-	}
+	font-size:15px;
+}
 
 .datos{
 	width:100%;
-	height:500px;
+	height:400px;
 	background-color:$fondo;
 
 //Element
+&__text{
+	color:$fondo;
+	border: 1px solid $texto;
+	border-radius:100px;
+	background: $texto;
+	width:200px;
+	height:200px;
+	position:relative;
+	top:30px;
+	left:300px;
+}
 &__nombre{
 	color:$titulo;
 	text-align:center;
-	padding-top:2%;
+	position:relative;
+	top:-160px;
+	
 }
 
 &__web{
 	color:$texto;
 	text-align:center;
-	padding-left:5%;
+	margin-top:-150px;
+	margin-left:56px;
 }
 
 &__descripcion{
 	color:$texto;
 	text-align:center;
-	padding-left:43%;
+	font-size:15px;
+	margin-top:50px;
+	margin-left:280px;	
+}
+
+&__texto{
+	color:$texto;
+	text-align:center;
+	font-size:15px;
+	margin-top:5px;
+	margin-left:280px;
 }
 
 &__boton{
 	color:white;
 	background:$boton;
 	text-align:center;
-	margin-left:43%;
+	margin-left:44%;
 	border-radius:20px;
 	border:none;
 	padding:10px 40px;
 	cursor:pointer;
+	margin-top:30px;
+	font-weight:bold;
 }
 
-
 }
+.redes{
 
+	&__face{
+		width:34px;
+		height:34px;
+		margin-left:400px;
+		margin-top:40px;
+	}
+
+	&__twit{
+		width:33px;
+		height:33px;
+		margin-left:10px;
+		margin-top:40px;
+	}
+
+	&__google{
+		width:33px;
+		height:33px;
+		margin-left:10px;
+		margin-top:40px;
+	}
+
+	&__p{
+		width:33px;
+		height:33px;
+		margin-left:10px;
+		margin-top:40px;
+	}
+
+	&__p{
+		width:33px;
+		height:33px;
+		margin-left:10px;
+		margin-top:40px;
+	}
+
+	&__link{
+		width:33px;
+		height:33px;
+		margin-left:10px;
+		margin-top:40px;
+	}
+
+	&__inst{
+		width:30px;
+		height:30px;
+		margin-left:10px;
+		margin-top:40px;
+	}
+}
